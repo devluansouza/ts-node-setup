@@ -16,7 +16,7 @@ A execução desse comando irá criar o arquivo [package.json](./package.json) c
 
 ## Configurando o TypeScript
 
-1º - Adicionada a dependência <b>typescript</b>.
+1º - Adicionada a dependência `typescript`.
 
 ```sh
 npm install typescript -D
@@ -26,13 +26,13 @@ A execução desse comando irá criar o arquivo [package-lock.json](./package-lo
 
 <b>Importante:</b> A pasta node_modules deve ser colocada no arquivo [.gitignore](./.gitignore).
 
-2º - Adicionando a dependência <b>@types/node</b>
+2º - Adicionando a dependência `@types/node`
 
 ```sh
 npm install @types/node -D
 ```
 
-3º - Criar o arquivo tsconfig.json.
+3º - Criar o arquivo `tsconfig.json`.
 
 ```sh
 npx tsc --init
