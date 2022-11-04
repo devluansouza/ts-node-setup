@@ -4,6 +4,16 @@ Configuração para começar a desenvolver projetos <b>[Node JS](https://nodejs.
 
 <b>Importante: </b> Estou utilizando o gerenciador de pacotes <b>[npm](https://www.npmjs.com/)</b>.
 
+# Tecnologias e ferramentas utilizadas
+
+- <b>[Node.js](https://nodejs.org/en/)</b>
+- <b>[TypeScript](https://www.typescriptlang.org/)</b>
+- <b>[ESLint](https://eslint.org/)</b>
+- <b>[Prettier](https://prettier.io/)</b>
+- <b>[Nodemon](https://nodemon.io/)</b>
+- <b>[ts-node](https://typestrong.org/ts-node/)</b>
+- <b>[@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped)</b>
+
 ## Inicializando o projeto
 
 Para inicializar o projeto, utilize o seguinte comando:
@@ -16,7 +26,7 @@ A execução desse comando irá criar o arquivo [package.json](./package.json) c
 
 ## Configurando o TypeScript
 
-1º - Adicionada a dependência `typescript`.
+1º - Adicionar a dependência `typescript`.
 
 ```sh
 npm install typescript -D
@@ -26,7 +36,7 @@ A execução desse comando irá criar o arquivo [package-lock.json](./package-lo
 
 <b>Importante:</b> A pasta node_modules deve ser colocada no arquivo [.gitignore](./.gitignore).
 
-2º - Adicionando a dependência `@types/node`
+2º - Adicionar a dependência `@types/node`
 
 ```sh
 npm install @types/node -D
@@ -38,4 +48,6 @@ npm install @types/node -D
 npx tsc --init
 ```
 
-A execução desse comando irá criar o arquivo [tsconfig.json](./tsconfig.json) com algumas configurações já predefinidas. Observação: O arquivo tsconfig.json deste repositório deve servir para a maioria dos projetos.
+A execução desse comando irá criar o arquivo [tsconfig.json](./tsconfig.json) com algumas configurações já predefinidas.
+
+<b>Observação:</b> O arquivo tsconfig.json deste repositório deve servir de base para a maioria dos projetos.
