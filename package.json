@@ -1,0 +1,24 @@
+{
+	"name": "ts-node-setup",
+	"version": "1.0.0",
+	"description": "Configuração para começar a desenvolver projetos <b>[Node JS](https://nodejs.org/en/)</b>, utilizando <b>[TypeScript](https://www.typescriptlang.org/)</b>, <b>[ESLint](https://eslint.org/)</b> e <b>[Prettier](https://prettier.io/)</b>.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/devluansouza/ts-node-setup.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/devluansouza/ts-node-setup/issues"
+	},
+	"homepage": "https://github.com/devluansouza/ts-node-setup#readme",
+	"devDependencies": {
+		"@types/node": "^18.11.9",
+		"typescript": "^4.8.4"
+	}
+}
