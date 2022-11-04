@@ -50,4 +50,16 @@ npx tsc --init
 
 A execução desse comando irá criar o arquivo [tsconfig.json](./tsconfig.json) com algumas configurações já predefinidas.
 
-<b>Observação:</b> O arquivo tsconfig.json deste repositório deve servir de base para a maioria dos projetos.
+<b>Observação:</b> O arquivo tsconfig.json deste repositório serve de base para a maioria dos projetos.
+
+4º - Adicionar a dependência `ts-node`
+
+```sh
+npm install ts-node -D
+```
+
+5º - Adicionar a dependência `nodemon`
+
+```sh
+npm install nodemon -D
+```
